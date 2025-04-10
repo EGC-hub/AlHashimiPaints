@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="Leading painting contractor in Dubai specializing in decorative painting, coating works, and spray plastering since 1990"
+    />
+    <meta name="author" content="" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Al Hashim Paints LLC - Premium Painting Services in Dubai</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Owl Carousel CSS from CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="assets/css/stylesheet.css" />
+    <link rel="stylesheet" href="assets/css/animated.css" />
+
+    <!-- Inline CSS for colorful sections and carousel -->
+    <style>
+      .main-banner {
+        background-color: #f8e1e1;
+      } /* Light Red */
+      #about {
+        background-color: #e1f8e1;
+      } /* Light Green */
+      #services {
+        background-color: #e1e1f8;
+      } /* Light Blue */
+      #free-quote {
+        background-color: #f8f1e1;
+      } /* Light Yellow */
+      #portfolio {
+        background-color: #f8e1f8;
+      } /* Light Purple */
+      #contact {
+        background-color: #e1f8f8;
+      } /* Light Cyan */
+      #bannerCarousel {
+        position: relative;
+      }
+      #bannerCarousel .item img {
+        width: 100%;
+        height: 640px;
+        object-fit: cover;
+      }
+      #bannerCarousel .owl-nav {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+      }
+      #bannerCarousel .owl-nav .owl-prev,
+      #bannerCarousel .owl-nav .owl-next {
+        position: absolute;
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        padding: 20px;
+        font-size: 24px;
+        cursor: pointer;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      #bannerCarousel .owl-nav .owl-prev {
+        left: 10px;
+      }
+      #bannerCarousel .owl-nav .owl-next {
+        right: 10px;
+      }
+      #bannerCarousel .owl-dots {
+        position: absolute;
+        bottom: 10px;
+        width: 100%;
+        text-align: center;
+      }
+      #bannerCarousel .owl-dot {
+        display: inline-block;
+        margin: 0 5px;
+      }
+      #bannerCarousel .owl-dot span {
+        width: 10px;
+        height: 10px;
+        background: #fff;
+        border-radius: 50%;
+        display: block;
+      }
+      #bannerCarousel .owl-dot.active span,
+      #bannerCarousel .owl-dot:hover span {
+        background: #00aaff;
+      }
+      .carousel-caption {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        color: #fff;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+        z-index: 10;
+      }
+      .service-thumb {
+        cursor: pointer;
+        text-align: center;
+        padding: 20px;
+      }
+      .service-thumb img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+      .service-thumb.active {
+        background-color: #ddd;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- ***** Preloader Start ***** -->
+    <div id="js-preloader" class="js-preloader">
+      <div class="preloader-inner">
+        <span class="dot"></span>
+        <div class="dots">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+
+    <!-- Pre-header Starts -->
+    <div class="pre-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-8 col-7">
+            <ul class="info">
+              <li>
+                <a href="#"
+                  ><i class="fa fa-envelope"></i>info@alhashimpaints.com</a
+                >
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-phone"></i>+971-4-123-4567</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-sm-4 col-5">
+            <ul class="social-media">
+              <li>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Pre-header End -->
+
+    <!-- ***** Header Area Start ***** -->
+    <header
+      class="header-area header-sticky wow slideInDown"
+      data-wow-duration="0.75s"
+      data-wow-delay="0s"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="main-nav">
+              <a href="index.html" class="logo">
+                <img
+                  src="assets/images/alhashim-logo.png"
+                  alt="Al Hashim Paints Logo"
+                  style="height: 80px"
+                />
+              </a>
+              <ul class="nav">
+                <li class="scroll-to-section">
+                  <a href="#top" class="active">Home</a>
+                </li>
+                <li class="scroll-to-section"><a href="#about">About</a></li>
+                <li class="scroll-to-section">
+                  <a href="#services">Services</a>
+                </li>
+                <li class="scroll-to-section">
+                  <a href="#portfolio">Projects</a>
+                </li>
+                <li class="scroll-to-section">
+                  <a href="#contact">Contact</a>
+                </li>
+                <li class="scroll-to-section">
+                  <div class="border-first-button">
+                    <a href="#contact">Free Quote</a>
+                  </div>
+                </li>
+              </ul>
+              <a class="menu-trigger">
+                <span>Menu</span>
+              </a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- Owl Carousel Start (After Navbar) -->
+    <div id="bannerCarousel" class="owl-carousel owl-theme">
+      <div class="item">
+        <img src="assets/images/1.jpg" alt="Painting Banner 1" />
+        <div class="carousel-caption">
+          <h5>Transforming Dubai’s Spaces</h5>
+          <p>Over 500 Projects Completed Since 1990</p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="assets/images/2.jpg" alt="Painting Banner 2" />
+        <div class="carousel-caption">
+          <h5>Expert Coating Solutions</h5>
+          <p>Durable and Aesthetic Finishes</p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="assets/images/3.jpg" alt="Painting Banner 3" />
+        <div class="carousel-caption">
+          <h5>Spray Plastering Excellence</h5>
+          <p>Fast, Flawless Results</p>
+        </div>
+      </div>
+    </div>
+    <!-- Owl Carousel End -->
+
+    <div
+      class="main-banner wow fadeIn"
+      id="top"
+      data-wow-duration="1s"
+      data-wow-delay="0.5s"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="col-lg-6 align-self-center">
+                <div
+                  class="left-content show-up header-text wow fadeInLeft"
+                  data-wow-duration="1s"
+                  data-wow-delay="1s"
+                >
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <h6>Al Hashim Paints LLC</h6>
+                      <h2>Transforming Spaces Since 1990</h2>
+                      <p>
+                        Leading painting contractor in Dubai specializing in
+                        decorative painting, coating works, and spray plastering
+                        for residential and commercial projects across the UAE.
+                      </p>
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="border-first-button scroll-to-section">
+                        <a href="#contact">Request a Quote</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div
+                  class="right-image wow fadeInRight"
+                  data-wow-duration="1s"
+                  data-wow-delay="0.5s"
+                >
+                  <img
+                    src="assets/images/painting-banner.jpg"
+                    alt="Painting Project"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="about" class="about section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="col-lg-6">
+                <div
+                  class="about-left-image wow fadeInLeft"
+                  data-wow-duration="1s"
+                  data-wow-delay="0.5s"
+                >
+                  <img
+                    src="assets/images/about-painting.jpg"
+                    alt="Painting Team at Work"
+                  />
+                </div>
+              </div>
+              <div
+                class="col-lg-6 align-self-center wow fadeInRight"
+                data-wow-duration="1s"
+                data-wow-delay="0.5s"
+              >
+                <div class="about-right-content">
+                  <div class="section-heading">
+                    <h6>About Us</h6>
+                    <h4>Who is Al Hashim <em>Paints</em></h4>
+                    <div class="line-dec"></div>
+                  </div>
+                  <p>
+                    Established in 1990 by A.K. Saifuddeen, Al Hashim Paints LLC
+                    is a premier painting company in Dubai. With over 500 new
+                    projects and 250 maintenance projects completed, including
+                    iconic works like Terminal 2 and Dubai Hills Estate, we
+                    bring decades of expertise in painting and design to every
+                    job.
+                  </p>
+                  <div class="row">
+                    <div class="col-lg-4 col-sm-4">
+                      <div
+                        class="skill-item first-skill-item wow fadeIn"
+                        data-wow-duration="1s"
+                        data-wow-delay="0s"
+                      >
+                        <div class="progress" data-percentage="95">
+                          <span class="progress-left"
+                            ><span class="progress-bar"></span
+                          ></span>
+                          <span class="progress-right"
+                            ><span class="progress-bar"></span
+                          ></span>
+                          <div class="progress-value">
+                            <div>95%<br /><span>Quality</span></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-4">
+                      <div
+                        class="skill-item second-skill-item wow fadeIn"
+                        data-wow-duration="1s"
+                        data-wow-delay="0s"
+                      >
+                        <div class="progress" data-percentage="90">
+                          <span class="progress-left"
+                            ><span class="progress-bar"></span
+                          ></span>
+                          <span class="progress-right"
+                            ><span class="progress-bar"></span
+                          ></span>
+                          <div class="progress-value">
+                            <div>90%<br /><span>Experience</span></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-4">
+                      <div
+                        class="skill-item third-skill-item wow fadeIn"
+                        data-wow-duration="1s"
+                        data-wow-delay="0s"
+                      >
+                        <div class="progress" data-percentage="85">
+                          <span class="progress-left"
+                            ><span class="progress-bar"></span
+                          ></span>
+                          <span class="progress-right"
+                            ><span class="progress-bar"></span
+                          ></span>
+                          <div class="progress-value">
+                            <div>85%<br /><span>Client Satisfaction</span></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="services" class="services section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div
+              class="section-heading wow fadeInDown"
+              data-wow-duration="1s"
+              data-wow-delay="0.5s"
+            >
+              <h6>Our Services</h6>
+              <h4>What We <em>Provide</em></h4>
+              <div class="line-dec"></div>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="naccs">
+              <div class="grid">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="menu">
+                      <div
+                        class="first-thumb active service-thumb"
+                        data-target="0"
+                      >
+                        <div class="thumb">
+                          <img
+                            src="assets/images/dp.jpg"
+                            alt="Decorative Painting"
+                          />
+                          <span>Decorative Painting</span>
+                        </div>
+                      </div>
+                      <div class="service-thumb" data-target="1">
+                        <div class="thumb">
+                          <img src="assets/images/cw.jpg" alt="Coating Works" />
+                          <span
+                            >Coating <br />
+                            Works</span
+                          >
+                        </div>
+                      </div>
+                      <div class="service-thumb" data-target="2">
+                        <div class="thumb">
+                          <img
+                            src="assets/images/sp.jpg"
+                            alt="Spray Plastering"
+                          />
+                          <span
+                            >Spray <br />
+                            Plastering</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <ul class="nacc">
+                      <li class="active">
+                        <div>
+                          <div class="thumb">
+                            <div class="row">
+                              <div class="col-lg-6 align-self-center">
+                                <div class="left-text">
+                                  <h4>Decorative Painting</h4>
+                                  <p>
+                                    Transform your spaces with our award-winning
+                                    decorative painting services, tailored to
+                                    both residential and commercial properties.
+                                  </p>
+                                  <div class="ticks-list">
+                                    <span
+                                      ><i class="fa fa-check"></i> Custom
+                                      Designs</span
+                                    >
+                                    <span
+                                      ><i class="fa fa-check"></i> Color
+                                      Consultation</span
+                                    >
+                                    <span
+                                      ><i class="fa fa-check"></i> Premium
+                                      Finishes</span
+                                    >
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-6 align-self-center">
+                                <div class="right-image">
+                                  <img
+                                    src="assets/images/dp.jpg"
+                                    alt="Decorative Painting"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <div class="thumb">
+                            <div class="row">
+                              <div class="col-lg-6 align-self-center">
+                                <div class="left-text">
+                                  <h4>Coating Works</h4>
+                                  <p>
+                                    Protect and enhance surfaces with our
+                                    specialized coating solutions, designed for
+                                    durability and aesthetics.
+                                  </p>
+                                  <div class="ticks-list">
+                                    <span
+                                      ><i class="fa fa-check"></i>
+                                      Weatherproofing</span
+                                    >
+                                    <span
+                                      ><i class="fa fa-check"></i>
+                                      Anti-Corrosion</span
+                                    >
+                                    <span
+                                      ><i class="fa fa-check"></i> Eco-Friendly
+                                      Options</span
+                                    >
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-6 align-self-center">
+                                <div class="right-image">
+                                  <img
+                                    src="assets/images/cw.jpg"
+                                    alt="Coating Works"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <div class="thumb">
+                            <div class="row">
+                              <div class="col-lg-6 align-self-center">
+                                <div class="left-text">
+                                  <h4>Spray Plastering</h4>
+                                  <p>
+                                    Efficient and high-quality spray plastering
+                                    for smooth, flawless finishes on any scale
+                                    of project.
+                                  </p>
+                                  <div class="ticks-list">
+                                    <span
+                                      ><i class="fa fa-check"></i> Rapid
+                                      Application</span
+                                    >
+                                    <span
+                                      ><i class="fa fa-check"></i> Even
+                                      Coverage</span
+                                    >
+                                    <span
+                                      ><i class="fa fa-check"></i>
+                                      Cost-Effective</span
+                                    >
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-6 align-self-center">
+                                <div class="right-image">
+                                  <img
+                                    src="assets/images/sp.jpg"
+                                    alt="Spray Plastering"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="free-quote" class="free-quote">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 offset-lg-4">
+            <div
+              class="section-heading wow fadeIn"
+              data-wow-duration="1s"
+              data-wow-delay="0.3s"
+            >
+              <h6>Get Your Free Quote</h6>
+              <h4>Start Your Project Today</h4>
+              <div class="line-dec"></div>
+            </div>
+          </div>
+          <div
+            class="col-lg-8 offset-lg-2 wow fadeIn"
+            data-wow-duration="1s"
+            data-wow-delay="0.8s"
+          >
+            <form id="search" action="#" method="GET">
+              <div class="row">
+                <div class="col-lg-4 col-sm-4">
+                  <fieldset>
+                    <input
+                      type="text"
+                      name="name"
+                      class="website"
+                      placeholder="Your Name..."
+                      autocomplete="on"
+                      required
+                    />
+                  </fieldset>
+                </div>
+                <div class="col-lg-4 col-sm-4">
+                  <fieldset>
+                    <input
+                      type="email"
+                      name="email"
+                      class="email"
+                      placeholder="Email Address..."
+                      autocomplete="on"
+                      required
+                    />
+                  </fieldset>
+                </div>
+                <div class="col-lg-4 col-sm-4">
+                  <fieldset>
+                    <button type="submit" class="main-button">
+                      Get Quote Now
+                    </button>
+                  </fieldset>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="portfolio" class="our-portfolio section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <div
+              class="section-heading wow fadeInLeft"
+              data-wow-duration="1s"
+              data-wow-delay="0.3s"
+            >
+              <h6>Our Portfolio</h6>
+              <h4>View Our Recent <em>Projects</em></h4>
+              <div class="line-dec"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="container-fluid wow fadeIn"
+        data-wow-duration="1s"
+        data-wow-delay="0.7s"
+      >
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="loop owl-carousel">
+              <div class="item">
+                <a href="#">
+                  <div class="portfolio-item">
+                    <div class="thumb">
+                      <img src="assets/images/t2.jpg" alt="Terminal 2" />
+                    </div>
+                    <div class="down-content">
+                      <h4>Terminal 2</h4>
+                      <span>Dubai Airport</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a href="#">
+                  <div class="portfolio-item">
+                    <div class="thumb">
+                      <img src="assets/images/jv.jpg" alt="Jumeirah Villas" />
+                    </div>
+                    <div class="down-content">
+                      <h4>Jumeirah Villas</h4>
+                      <span>Residential</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="item" style="height: 325px">
+                <a href="#">
+                  <div class="portfolio-item">
+                    <div class="thumb">
+                      <img
+                        src="assets/images/at.jpg"
+                        alt="Sheikh Ahmed Towers"
+                        style="height: 155px"
+                      />
+                    </div>
+                    <div class="down-content">
+                      <h4>Sheikh Ahmed Towers</h4>
+                      <span>Commercial</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="item" style="height: 325px">
+                <a href="#">
+                  <div class="portfolio-item">
+                    <div class="thumb">
+                      <img
+                        src="assets/images/he.jpg"
+                        alt="Dubai Hills Estate"
+                        height="155px"
+                      />
+                    </div>
+                    <div class="down-content">
+                      <h4>Dubai Hills Estate</h4>
+                      <span>Residential</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact" class="contact-us section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 offset-lg-3">
+            <div
+              class="section-heading wow fadeIn"
+              data-wow-duration="1s"
+              data-wow-delay="0.5s"
+            >
+              <h6>Contact Us</h6>
+              <h4>Get In Touch With Us <em>Now</em></h4>
+              <div class="line-dec"></div>
+            </div>
+          </div>
+          <div
+            class="col-lg-12 wow fadeInUp"
+            data-wow-duration="0.5s"
+            data-wow-delay="0.25s"
+          >
+            <form id="contact" action="" method="post">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="contact-dec">
+                    <img src="assets/images/contact-dec.png" alt="" />
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div id="map">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d901.9113820385544!2d55.353153999166906!3d25.282507076162755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5c8b80b14ea3%3A0xb88d7b254998748d!2sRoyal%20House%20Building!5e0!3m2!1sen!2sin!4v1744273279299!5m2!1sen!2sin"
+                      width="100%"
+                      height="825px"
+                      frameborder="0"
+                      style="border: 0"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+                <div class="col-lg-8">
+                  <div class="fill-form">
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <div class="info-post">
+                          <div class="icon">
+                            <img src="assets/images/phone-icon.png" alt="" />
+                            <a href="#">+971-4-123-4567</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="info-post">
+                          <div class="icon">
+                            <img src="assets/images/email-icon.png" alt="" />
+                            <a href="#">info@alhashimpaints.com</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-12">
+                        <div class="info-post">
+                          <div class="icon">
+                            <img src="assets/images/location-icon.png" alt="" />
+                            <a href="#">Ahmad hassan Al hashimi paints,
+                              Royal house building 
+                              Office No M18, MEZZANINE floor, 
+                              opp to yemen al Mandi restaurant 
+                              Hor al anz east
+                              Al Wuheida Road 
+                              Dubai</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <fieldset>
+                          <input
+                            type="name"
+                            name="name"
+                            id="name"
+                            placeholder="Name"
+                            autocomplete="on"
+                            required
+                          />
+                        </fieldset>
+                        <fieldset>
+                          <input
+                            type="email"
+                            name="email"
+                            id="email"
+                            pattern="[^ @]*@[^ @]*"
+                            placeholder="Your Email"
+                            required=""
+                          />
+                        </fieldset>
+                        <fieldset>
+                          <input
+                            type="subject"
+                            name="subject"
+                            id="subject"
+                            placeholder="Subject"
+                            autocomplete="on"
+                          />
+                        </fieldset>
+                      </div>
+                      <div class="col-lg-6">
+                        <fieldset>
+                          <textarea
+                            name="message"
+                            type="text"
+                            class="form-control"
+                            id="message"
+                            placeholder="Message"
+                            required=""
+                          ></textarea>
+                        </fieldset>
+                      </div>
+                      <div class="col-lg-12">
+                        <fieldset>
+                          <button
+                            type="submit"
+                            id="form-submit"
+                            class="main-button"
+                          >
+                            Send Message Now
+                          </button>
+                        </fieldset>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <p>
+              Copyright © 2025 Ahmed Hassan Al Hashim Paints LLC. All Rights
+              Reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts (Using CDNs) -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="assets/js/animation.js"></script>
+    <script src="assets/js/imagesloaded.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+    <!-- Custom JavaScript for Owl Carousel and Services Tabs -->
+    <script>
+      $(document).ready(function () {
+        // Check if Owl Carousel is loaded
+        if (typeof $.fn.owlCarousel === "undefined") {
+          console.error(
+            "Owl Carousel is not loaded. Check CDN link or network."
+          );
+        } else {
+          // Initialize Owl Carousel for banners
+          $("#bannerCarousel").owlCarousel({
+            items: 1, // Show one item at a time
+            loop: true, // Loop the carousel
+            autoplay: true, // Auto-slide
+            autoplayTimeout: 5000, // 5 seconds per slide
+            autoplayHoverPause: true, // Pause on hover
+            nav: true, // Show navigation arrows
+            dots: true, // Show dots for navigation
+          });
+          console.log("Owl Carousel initialized successfully");
+        }
+
+        // Service tabs functionality
+        $(".service-thumb").click(function () {
+          var target = $(this).data("target");
+          $(".service-thumb").removeClass("active");
+          $(this).addClass("active");
+          $(".nacc li").removeClass("active");
+          $(".nacc li").eq(target).addClass("active");
+        });
+      });
+    </script>
+  </body>
+</html>
